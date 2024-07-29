@@ -1,5 +1,5 @@
 # Personal-Website
-Repo for the development of my personal website - simple &amp; interactive landing page
+Welcome to my personal portfolio repository // This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
 # Developer / Author Intro
 
