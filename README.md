@@ -5,11 +5,20 @@ Welcome to my personal portfolio repository // This repository showcases my open
 
 Passionate about decentralized finance (DeFi), smart contracts, and memecoins. Providing daily market insights, top trending tokens, and the best tools in the crypto space. Join me for educational content, live AMAs, and exclusive crypto updates.
 
+## Projects
+
+### Web3 Resources
+### Front-End Tools
+### Personal/Portfolio Website
+### Automation Experiments
+
 ## Purpose
 
 This portfolio serves as a comprehensive display of my work in the blockchain and web development space. It includes various projects that demonstrate my skills in decentralized finance (DeFi), smart contract development, and creating user-friendly interfaces for decentralized applications (dApps).
 
-Always keen to chat & meet people in the tech & web3 space.
+## Getting Started
+
+To get started with any of these projects, clone the repository and follow the instructions in the respective project directories.
 
 Let's build!
 
