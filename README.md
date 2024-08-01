@@ -20,10 +20,10 @@ This portfolio serves as a comprehensive display of my work in the blockchain an
 
 To get started with any of these projects, clone the repository and follow the instructions in the respective project directories.
 
-Let's build!
-
 **Arthur Vandelay**  
 **Twitter:** [@DeFi_Vandelay](https://twitter.com/DeFi_Vandelay)  
 **Website:** [arthurvandelay.dev](https://arthurvandelay.dev)  
 **Telegram:** [@DeFi_Vandelay](https://t.me/DeFi_Vandelay)  
 **GitHub:** [@DeFi-Vandelay](https://github.com/DeFi-Vandelay)
+
+Let's build!
