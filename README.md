@@ -20,3 +20,8 @@ To get started with any of these projects, clone the repository and follow the i
 **GitHub:** [@DeFi-Vandelay](https://github.com/DeFi-Vandelay)
 
 Let's build!
+
+## To Do
+
+Refactor as React app
+Add Community Features
