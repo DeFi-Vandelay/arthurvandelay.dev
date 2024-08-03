@@ -1,4 +1,4 @@
-# Personal Website
+# Art.v Studio |
 
 Welcome to my personal portfolio repository! This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
