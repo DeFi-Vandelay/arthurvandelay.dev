@@ -90,10 +90,8 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: var(--c0);
-  color: var(--c11);
-  /*
+  color: var(--c0);
   font-size: min(max(1rem, 4vw), 22px);
-  */
   font-family: "Inter", sans-serif;
   user-select: none;
   margin: 0;
@@ -108,21 +106,21 @@ body {
 }
 
 footer {
-  font-size: min(max(1rem, 1.5rem), 1.5rem);
+  font-size: min(max(0.5rem, 1rem), 1rem);
   font-weight: 700;
   position: absolute;
   width: 100vw;
-  height: 4em;
+  height: 1.5em;
   left: 0;
   bottom: 0;
 }
 footer #year {
   position: absolute;
   text-transform: uppercase;
-  top: 0;
+  top: 1.5em;
   left: 50%;
   transform: translate(-50%, 0%);
-  font-size: min(max(1rem, 1.5rem), 1.5rem);
+  font-size: min(max(0.5rem, 1rem), 1rem);
   text-transform: uppercase;
   transition: color 0.6s cubic-bezier(0.86, 0, 0.07, 1);
   font-family: Times, serif;
@@ -136,7 +134,7 @@ section {
   height: 100vh;
   min-height: 100vh;
   border-top: solid 1px var(--c0);
-  background: var(--c0);
+  background: var(--c11);
   overflow: hidden;
   transition: background 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
@@ -166,7 +164,7 @@ section .section-content {
   padding: 0.4rem;
   background: var(--c0);
   border-radius: 0.7rem;
-  transition: background 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: color 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 section .section-content .title {
@@ -209,6 +207,7 @@ section#studio .section-content {
 
 section#studio .section-content .title {
   color: var(--c0);
+  transition: color 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 section#studio .section-content .subtitle {
@@ -274,19 +273,96 @@ border:1px solid #f4f4f4
   /* if we want equal height on cards */
   grid-auto-rows: 1fr;
   overflow-y: scroll;
+  transition: color 0.6s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 section#studio .card {
-  color: var(--c0);
+  background-image: url('/images/background12.png');
   transition: color 0.6s cubic-bezier(0.86, 0, 0.07, 1);
   padding: 1rem;
+  border-radius: 8px;
   border: 1px solid #222;
   box-sizing: border-box;
 }
+
+section#studio .card:hover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Specific backgrounds for each card */
+section#studio .card.bot-or-not:hover {
+  background-image: url('Frame1.png');
+}
+
+section#studio .card.dev-w3-me:hover {
+  background-image: url('Frame2.png');
+}
+
+section#studio .card.collab-w-me:hover {
+  background-image: url('Frame3.png');
+}
+
+section#studio .card.write-w-me:hover {
+  background-image: url('Frame4.png');
+}
+
+section#studio .card.design-w-me:hover {
+  background-image: url('Frame5.png');
+}
+
+section#studio .card.qr-generator-tool:hover {
+  background-image: url('Frame6.png');
+}
+
+section#studio .card.developer-portfolio:hover {
+  background-image: url('Frame7.png');
+}
+
+section#studio .card.web3-resource-hub:hover {
+  background-image: url('Frame8.png');
+}
+
+.card-img {
+  width: 5rem;
+  height: auto;
+  /* border-radius: 8px; */
+  /* border: 1px solid #fff; */
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}
+
+.bi {
+  font-size: 5rem;
+  color: var(--c0);
+}
+.bi:hover {
+  color: var(--c11);
+}
+
 section#studio .card h2 {
-  /*
-  text-decoration:underline;
-  */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+  padding-left: 0.5rem;
+  z-index: 999;
+}
+
+section#studio .card p {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: white;
+  text-align: left;
+  padding-left: 0.5rem;
 }
 
 section#studio .overlay {
@@ -296,6 +372,7 @@ section#studio .overlay {
   grid-auto-rows: 1fr;
   overflow: hidden;
 }
+
 
 .btn-more a {
   padding-top: 10px;
@@ -449,7 +526,7 @@ a {
   letter-spacing: 0em;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: var(--c11);
   text-transform: uppercase;
   text-align: left;
@@ -463,10 +540,10 @@ a {
 }
 
 .btn-fullscreen {
-  top: 0.4em;
-  right: 0.4em;
-  width: 30px;
-  height: 30px;
+  top: 50%;
+  right: 3em;
+  width: 50px;
+  height: 50px;
   position: fixed;
   z-index: 3200;
   transform: scale(0.7);
@@ -476,10 +553,10 @@ a {
 #toggle-theme {
   z-index: 12;
   position: fixed;
-  top: 0.4em;
-  left: 0.4em;
-  width: 24px;
-  height: 24px;
+  top: 50%;
+  left: 3em;
+  width: 40px;
+  height: 40px;
   transform: scale(0.6);
   cursor: pointer;
 }
@@ -531,4 +608,17 @@ a {
   fill: var(--c11);
   fill-opacity: 0.05;
   transition: fill 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+#svg-globe .svg-globe-path:hover {
+  fill: var(--c0);
+  fill-opacity: 0.5;
+  transition: fill 0.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.contactDiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
