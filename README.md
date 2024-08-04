@@ -2,6 +2,9 @@
 
 Welcome to my personal portfolio repository! This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
+![Screenshot 2024-08-05 062546](https://github.com/user-attachments/assets/2b6c5883-0f4f-474b-a9ed-75f253455e0f)
+
+
 ## Developer / Author Intro
 
 I am passionate about decentralized finance (DeFi), smart contracts, and memecoins. I provide daily market insights, highlight top trending tokens, and share the best tools in the crypto space. Join me for educational content, live AMAs, and exclusive crypto updates.
