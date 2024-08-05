@@ -1,17 +1,38 @@
 # Art.v Studio |
 
-Welcome to my personal portfolio repository! This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
+This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
 ![Screenshot 2024-08-05 062546](https://github.com/user-attachments/assets/2b6c5883-0f4f-474b-a9ed-75f253455e0f)
 
+# Arthur Vandelay's Portfolio
+
+Welcome to the repository for my personal portfolio website! This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
 ## Developer / Author Intro
 
-I am passionate about decentralized finance (DeFi), smart contracts, and memecoins. I provide daily market insights, highlight top trending tokens, and share the best tools in the crypto space. Join me for educational content, live AMAs, and exclusive crypto updates.
+I am Arthur Vandelay, a web3 developer with a passion for decentralized finance (DeFi), smart contracts, and memecoins. I provide daily market insights, highlight top trending tokens, and share the best tools in the crypto space. Join me for educational content, live AMAs, and exclusive crypto updates.
 
 ## Purpose
 
 This portfolio serves as a comprehensive display of my work in the blockchain and web development space. It includes various projects that demonstrate my skills in decentralized finance (DeFi), smart contract development, and creating user-friendly interfaces for decentralized applications (dApps).
+
+## Website Sections
+
+### Welcome
+The first landing viewport provides a brief introduction to my portfolio, inviting visitors to explore my projects and learn more about my expertise in the crypto space.
+
+![Screenshot 2024-08-05 062546](https://github.com/user-attachments/assets/2b6c5883-0f4f-474b-a9ed-75f253455e0f)
+
+### Showcase
+The showcase section is a directory of my developer repositories, projects, and resources. This section highlights the various tools and applications I have developed, providing links to live demos and GitHub repositories.
+
+![1](https://github.com/user-attachments/assets/0f8860db-7997-4803-84f1-c5f7240aa3c3)
+
+### Contact
+The contact section offers links for visitors to keep updated with my latest work or get in touch with me for collaborations and inquiries.
+
+https://github.com/user-attachments/assets/f97331bd-09c6-4082-bbde-a58566963c5e
+
 
 ## Projects
 
@@ -51,6 +72,24 @@ A comprehensive collection of resources for Web3 investors and developers. This 
 A web app that allows users to upload an image or provide an image URL, customize it by adding text, and generate a new URL displaying the customized image. The customization options include title and subtitle text, font size, font color, font family, text alignment, and more.  
 [GitHub Repository](https://github.com/DeFi-Vandelay/imageCustomizerWeb)
 
+## Tech Stack
+
+- **Front-End:** React, Next.js
+- **Back-End:** Node.js, Express
+- **Blockchain:** Solidity, Web3.js, Ethers.js
+- **Database:** MongoDB, PostgreSQL
+- **Design:** Figma
+- **3D Graphics:** Three.js
+- **Hosting:** Vercel
+
+## Future Additions
+
+### Three.js 3D QR Code Generator
+A new feature that will allow users to generate 3D QR codes. This generator will provide a unique way to create personalized QR codes with stunning 3D visuals.
+
+### Docs Feature
+A comprehensive documentation section to offer more detailed information on the projects included in the showcase section. This will include image and video demos, as well as technical walkthroughs for other developers.
+
 ## Getting Started
 
 To get started with any of these projects, clone the repository and follow the instructions in the respective project directories.
@@ -61,9 +100,4 @@ To get started with any of these projects, clone the repository and follow the i
 **Telegram:** [@DeFi_Vandelay](https://t.me/DeFi_Vandelay)  
 **GitHub:** [@DeFi-Vandelay](https://github.com/DeFi-Vandelay)
 
-Let's build!
-
-## To Do
-
-- Refactor as React app
-- Add Community Features
+Get in touch. Let's build!
