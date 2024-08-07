@@ -1,4 +1,4 @@
-# Art.v Studio |
+# Art.v Studio | 
 
 This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
@@ -7,10 +7,9 @@ This repository showcases my open-source projects, highlighting my expertise in 
 # Arthur Vandelay's Portfolio
 
 Welcome to the repository for my personal portfolio website! This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
-
 ## Developer / Author Intro
 
-I am Arthur Vandelay, a web3 developer with a passion for decentralized finance (DeFi), smart contracts, and memecoins. I provide daily market insights, highlight top trending tokens, and share the best tools in the crypto space. Join me for educational content, live AMAs, and exclusive crypto updates.
+I am Arthur Vandelay, a Web3 developer with a passion for decentralized finance (DeFi), smart contracts, and memecoins. I provide daily market insights, highlight top trending tokens, and share the best tools in the crypto space. Join me for educational content, live AMAs, and exclusive crypto updates.
 
 ## Purpose
 
