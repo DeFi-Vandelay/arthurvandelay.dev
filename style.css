@@ -311,8 +311,6 @@ section#studio .card.web3-resource-hub:hover {
 .card-img {
   width: 5rem;
   height: auto;
-  /* border-radius: 8px; */
-  /* border: 1px solid #fff; */
   box-sizing: border-box;
   padding: 0.5rem;
 }
