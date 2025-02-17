@@ -1,4 +1,4 @@
-# Art.v Studio | 
+# Art.v Studio | Live site down (under construction 16-23 fedruary 2025).
 
 This repository showcases my open-source projects, highlighting my expertise in web3 development, front-end tools, and automation experiments.
 
